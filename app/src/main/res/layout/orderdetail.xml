@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/listview_orderdetail"
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/button_sure_Out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listview_orderdetail"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="2dp"
+        android:text="确认出货" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="184dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="14dp"
+        android:text="订单详情"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

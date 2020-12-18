@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.MainFormActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:text="今日工作"
+                android:textSize="28dp"
+                android:onClick="work_bt"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="1"
+                android:textSize="28dp"
+                android:text="订单生成"
+                android:onClick="order_bt"
+                tools:ignore="OnClick" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="0"
+                android:textSize="28dp"
+                android:onClick="enquiry_bt"
+                android:text="库存查询"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_column="1"
+                android:textSize="28dp"
+                android:onClick="Stocktaking_bt"
+                android:text="库存盘点"
+                tools:ignore="OnClick" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

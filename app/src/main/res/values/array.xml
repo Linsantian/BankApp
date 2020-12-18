@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources tools:ignore="MissingConstraints" xmlns:tools="http://schemas.android.com/tools">
+<string-array name="spingarr"
+    tools:ignore="MissingPrefix">
+    <item>A</item>
+    <item>B</item>
+    <item>C</item>
+    <item>D</item>
+</string-array>
+    <string-array name="location"
+        tools:ignore="MissingPrefix">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+</resources>
+
